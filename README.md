@@ -1,33 +1,7 @@
 # Solar-energy-potential-product
-Solar energy potential of urban buildings in 10 cities of China
+This Data Prodcut contain the solar energy potential of urban buildings in 10 cities of China.
+10 cities of China: Beijing, Chongqing, Guangzhou, Harbin, Kunming, Lhasa, Nanjing, Shanghai, Urumqi, Xi'an
 
-Folders:
-	Beijing
-	Chongqing
-	Guangzhou
-	Harbin
-	Kunming
-	Lhasa
-	Nanjing
-	Shanghai
-	Urumqi
-	Xi'an
+More detailed exaplanations can be found in the following paper:
 
-Under the folders:
-	Shapefile: each polygon records information on a building in the city.
-	
-
-Attribute fields of the shapefile:
-	ID:		(Long)		a unique number
-	N_floor:	(Int)		number of floors
-	A_roof: 	(Double)	area of building roof (m^2)
-	A_facade: 	(Double)	area of building facades (m^2)
-	Y_roof: 	(Double)	yearly solar irradation recieved by building roof (kWh/year)
-	Y_facade:	(Double)	yearly solar irradation recieved by building facades (kWh/year)
-	Y_total: 	(Double)	yearly solar irradation recieved by building roof and facades (kWh/year)
-	
-
-Instructions:
-	A_roof = Shape_Area
-	A_facade = Shape_Lengths × N_floor × 3
-	Y_total = Y_roof + Y_facade
+Liang Cheng, Fangli Zhang, Shuyi Li, Junya Mao, Hao Xu, Weimin Ju, Xiaoqiang Liu, Jie Wu, Kaifu Min, Xuedong Zhang and Manchun Li,"Solar energy potential of urban buildings in 10 cities of China," submitting 2019.
