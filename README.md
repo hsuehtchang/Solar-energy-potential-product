@@ -1,5 +1,5 @@
 # Solar-energy-potential-product
-This Data Prodcut contain the solar energy potential of urban buildings in 10 cities of China.
+This Data Product contains the solar energy potential of urban buildings in 10 cities of China.
 10 cities of China: Beijing, Chongqing, Guangzhou, Harbin, Kunming, Lhasa, Nanjing, Shanghai, Urumqi, Xi'an
 
 More detailed exaplanations can be found in the following paper:
